@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tugas5_RecycleView</string>
+    <string name="Close">Close</string>
+    <string name="Open">Open</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="deskripsi">Batik IPNU IPPNU Nusantara</string>
+    <string name="details">Kami menyediakan stok Batik Resmi IPNU IPPNU Nusantara, Order dibawah 5 Pcs silahkan langsung klik Pesan tanpa tanya stok,Order grosir bisa menghubungi admin terlebih dahulu.Tersedia Ukuran mulai dari S,M,L,XL,XXL,XXXL </string>
+    <string name="nb">READY STOK, Pengiriaman langsung dari Kota Pekalongan</string>
+    <string name="price">HARGA</string>
+    <string name="Harga">85000</string>
+    <string-array name="produk">
+        <item>Batik Pekalongan</item>
+        <item>Batik Nusantara</item>
+        <item>Batik Nasional</item>
+        <item>Jas IPNU IPPNU</item>
+    </string-array>
+    <string-array name="star">
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>4.4</item>
+        <item>4.9</item>
+    </string-array>
+    <string-array name="harga">
+        <item>Rp. 85.000</item>
+        <item>Rp. 75.000</item>
+        <item>Rp. 75.000</item>
+        <item>Rp. 185.000</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blankfragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tagLogin">Let\'s join us and \nLogin Your Account</string>
+    <string name="tagRegister">Let\'s Register Your Account And \nGo Back To Login</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="your_name">Full Name</string>
+    <string name="username">Username</string>
+</resources>

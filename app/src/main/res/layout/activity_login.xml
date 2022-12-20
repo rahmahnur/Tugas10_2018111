@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Login Terlebih Dahulu"
+        android:textSize="25sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@id/signinusernameEditText"/>
+    <EditText
+        android:id="@+id/signinusernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_above="@id/signinpasswordEditText"
+        android:background="#F5F5F5"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/signinpasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:layout_centerInParent="true"
+        android:background="#F5F5F5"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/Signinbuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signinpasswordEditText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:text="Masuk"/>
+    <ImageButton
+        android:id="@+id/SignUpHerebuttonid"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_arrow_right"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_above="@id/swipeRight"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/swipeRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar Disini"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>
